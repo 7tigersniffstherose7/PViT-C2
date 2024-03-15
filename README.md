@@ -25,3 +25,14 @@ BaseLine Model Versions in Transformers<br>
 | SwiftFormer | MBZUAI/swiftformer-l3 |
 | DiT | microsoft/dit-base-finetuned-rvlcdip |
 
+Controlled Experimental Parameters<br>
+
+| Parameter | Value |
+| --- | --- |
+| Learning rate | 1e-4 |
+| Train batch size | 8 |
+| Eval batch size | 8 |
+| Gradient accumulation steps(optional) | 4 |
+| Warmup ratio | 0.1 |
+| Evaluation strategy | "epoch" |
+| Train epochs | variable |
